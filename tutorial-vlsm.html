@@ -1324,9 +1324,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 Clicca su <strong>Simulation</strong> per passare alla modalità di simulazione.
             </p>
             <div class="img-placeholder">
-                <div class="icon">⏱️</div>
-                <div class="label">[IMG_12] — Il pannello Simulation Mode con il pulsante evidenziato</div>
-                <div class="hint">Mostra la barra inferiore di Packet Tracer con la scheda Simulation selezionata</div>
+                <img src="passo8-SimulationMode.png">
             </div>
         </div>
     </div>
@@ -1342,9 +1340,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 e altro che potrebbe confondere l'analisi.
             </p>
             <div class="img-placeholder">
-                <div class="icon">🔍</div>
-                <div class="label">[IMG_13] — Filtro protocolli impostato su ICMP nella Simulation Mode</div>
-                <div class="hint">Mostra la finestra Edit Filters con solo ICMP selezionato</div>
+                <img src="passo8-EditFiles.png">
             </div>
         </div>
     </div>
@@ -1363,9 +1359,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 <strong>Capture/Forward</strong>.
             </p>
             <div class="img-placeholder">
-                <div class="icon">✉️</div>
-                <div class="label">[IMG_14] — PDU (busta) creata su PC-A1, pronta per essere inviata</div>
-                <div class="hint">Mostra la busta apparsa sopra PC-A1 nella topologia</div>
+                <img src="passo8-Lettera.png">
             </div>
         </div>
     </div>
@@ -1384,9 +1378,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 fai clic sulla riga corrispondente per aprire i <strong>dettagli del pacchetto</strong>.
             </p>
             <div class="img-placeholder">
-                <div class="icon">📋</div>
-                <div class="label">[IMG_15] — Event List con il pacchetto ICMP catturato</div>
-                <div class="hint">Mostra l'Event List con le righe dei pacchetti ICMP; evidenzia la riga su cui cliccare</div>
+                <img src="passo8-EventList.png">
             </div>
         </div>
     </div>
@@ -1428,11 +1420,11 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Src MAC Address</span>
-                <span class="field-value" style="color: var(--accent-pink);">____:____:____  (MAC di PC-A1)</span>
+                <span class="field-value" style="color: var(--accent-pink);">00D0.BAB5.8E6C    (MAC di PC-A1)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Dest MAC Address</span>
-                <span class="field-value" style="color: var(--accent-pink);">____:____:____  (MAC di PC-A2)</span>
+                <span class="field-value" style="color: var(--accent-pink);">0060.5C2A.67E4    (MAC di PC-A2)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">EtherType</span>
@@ -1463,11 +1455,11 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Source IP</span>
-                <span class="field-value" style="color: var(--accent-pink);">192.168.0.______  (IP di PC-A1)</span>
+                <span class="field-value" style="color: var(--accent-pink);">192.168.0.2  (IP di PC-A1)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Destination IP</span>
-                <span class="field-value" style="color: var(--accent-pink);">192.168.0.______  (IP di PC-A2)</span>
+                <span class="field-value" style="color: var(--accent-pink);">192.168.0.3   (IP di PC-A2)</span>
             </div>
         </div>
 
@@ -1492,15 +1484,11 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🔬</div>
-        <div class="label">[IMG_16] — Finestra PDU Information: scheda OSI Model con i dettagli di ogni livello</div>
-        <div class="hint">Cattura la schermata PDU Information espansa con tutti i livelli visibili</div>
+        <img src="passo8-PDUinformation.png"/>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🔬</div>
-        <div class="label">[IMG_17] — Finestra PDU Information: scheda Inbound/Outbound PDU Details</div>
-        <div class="hint">Cattura la scheda che mostra i dettagli in formato tabellare (Inbound PDU / Outbound PDU)</div>
+        <img src="passo8-PDUdetails.png"/>
     </div>
 
     <div class="info-box">
@@ -1530,11 +1518,11 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Source IP</span>
-                <span class="field-value" style="color: var(--accent-pink);">192.168.0.______  (IP di PC-A2 — ora è la sorgente!)</span>
+                <span class="field-value" style="color: var(--accent-pink);">192.168.0.3  (IP di PC-A2 — ora è la sorgente!)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Destination IP</span>
-                <span class="field-value" style="color: var(--accent-pink);">192.168.0.______  (IP di PC-A1 — ora è la destinazione!)</span>
+                <span class="field-value" style="color: var(--accent-pink);">192.168.0.2  (IP di PC-A1 — ora è la destinazione!)</span>
             </div>
         </div>
         <div class="packet-layer">
@@ -1554,9 +1542,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🔬</div>
-        <div class="label">[IMG_18] — PDU Information dell'Echo Reply: nota gli IP invertiti e Type = 0</div>
-        <div class="hint">Cattura i dettagli del pacchetto di risposta, evidenziando il campo Type e gli IP invertiti</div>
+        <img src="passo8-nonRiuscito.png"/>
     </div>
 </section>
 
@@ -1586,7 +1572,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                     PC-A1 > Command Prompt
                 </div>
                 <div class="code-body">
-<span class="cmd">C:\&gt;</span> ping <span class="placeholder">192.168.0.______</span>  <span class="comment">&lt;-- IP di PC-B1</span>
+<span class="cmd">C:\&gt;</span> ping <span class="placeholder">192.168.0.3</span>  <span class="comment">&lt;-- IP di PC-B1</span>
 
 <span class="output">Pinging 192.168.0.______ with 32 bytes of data:</span>
 
@@ -1595,7 +1581,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
 <span class="highlight">Request timed out.</span>
 <span class="highlight">Request timed out.</span>
 
-<span class="output">Ping statistics for 192.168.0.______:</span>
+<span class="output">Ping statistics for 192.168.0.2:</span>
 <span class="output">    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss)</span>
                 </div>
             </div>
